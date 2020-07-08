@@ -24,7 +24,7 @@ public class Village {
 	                totalCost += pricePerPerson[2] + pricePerPerson[0]; 
 	            } 
 	            
-	           // if numberOfPersons is 4
+	           // if numberOfPersons is 4 or finding minimum of 2 approach
 	            else if(2*pricePerPerson[i-2]>pricePerPerson[2]+2*pricePerPerson[0])
 	            { 
 	            	totalCost=  pricePerPerson[i] + pricePerPerson[i - 1] + 2 * pricePerPerson[0]; 
